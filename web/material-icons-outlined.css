@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'Material Icons Outlined';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Material Icons Outlined'),
+		local('MaterialIconsOutlined-Regular'),
+		url(./fonts/MaterialIconsOutlined-Regular.woff2) format('woff2'),
+		url(https://fonts.gstatic.com/s/materialiconsoutlined/v38/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUce.woff2) format('woff2');
+}
+
+.material-icons-outlined {
+	font-family: 'Material Icons Outlined';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+	display: inline-block;
+	line-height: 1;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+	-webkit-font-smoothing: antialiased; /* Webkit */
+	text-rendering: optimizeLegibility; /* Safari and Chrome. */
+	-moz-osx-font-smoothing: grayscale; /* Firefox */
+	font-feature-settings: 'liga'; /* IE */
+}

@@ -1,0 +1,26 @@
+{
+  "name": "material-design-icons-web",
+  "version": "4.0.0",
+  "description": "Material Design Icons in a smaller repo ready for the web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lukenickerson/material-design-icons-web.git"
+  },
+  "keywords": [
+    "material",
+    "material-design",
+    "icons",
+    "web",
+    "fonts"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Lukenickerson/material-design-icons-web/issues"
+  },
+  "homepage": "https://github.com/Lukenickerson/material-design-icons-web#readme"
+}

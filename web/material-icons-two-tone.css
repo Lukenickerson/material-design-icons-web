@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'Material Icons Two Tone';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Material Icons Two Tone'),
+		local('MaterialIconsTwoTone-Regular'),
+		url(./fonts/MaterialIconsTwoTone-Regular.woff2) format('woff2'),
+		url(https://fonts.gstatic.com/s/materialiconstwotone/v36/hESh6WRmNCxEqUmNyh3JDeGxjVVyMg4tHGctNCu0.woff2) format('woff2');
+}
+
+.material-icons-two-tone {
+	font-family: 'Material Icons Two Tone';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+	display: inline-block;
+	line-height: 1;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+	-webkit-font-smoothing: antialiased; /* Webkit */
+	text-rendering: optimizeLegibility; /* Safari and Chrome. */
+	-moz-osx-font-smoothing: grayscale; /* Firefox */
+	font-feature-settings: 'liga'; /* IE */
+}
