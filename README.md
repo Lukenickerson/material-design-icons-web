@@ -32,7 +32,7 @@ The point of this repo is to be small in size, and allow easy integration into y
 ## How to Use
 
 1. `npm install https://github.com/Lukenickerson/material-design-icons-web`
-1. Copy the files from `YOUR_PROJECT/node_modules/material-design-icons-web/web` to wherever you want your material icon files to live, e.g., `YOUR_PROJECT/static/styles/material-icons` -- either manually, or with Webpack (see below), or some other tool.
+1. Copy the files from `YOUR_PROJECT/node_modules/material-design-icons-web/web` to wherever you want your material icon files to live, e.g., `YOUR_PROJECT/static/styles/material-icons` -- either manually, or with copyfiles, Webpack, or some other tool (see below).
 1. Link to one or more stylesheets from your HTML, e.g., `<link rel="stylesheet" href="static/styles/material-icons/material-icons-outlined.css" />`. See list of css filenames below.
 1. Use the [material styling and ligatures](https://google.github.io/material-design-icons/#using-the-icons-in-html)
 in your HTML, e.g. `<i class="material-icons-outlined">face</i>`. See class names below.
@@ -48,8 +48,15 @@ in your HTML, e.g. `<i class="material-icons-outlined">face</i>`. See class name
 | Sharp    | `material-icons-sharp.css` | `material-icons-sharp` |
 | *All*    | `material-icons-all.css` | All of the above |
 
-### Webpack
+### Copying
 
+#### Copying with [copyfiles](https://www.npmjs.com/package/copyfiles)
+
+1. `npm install copyfiles`
+1. Add a script to your `package.json` like `"copy:icons": "copyfiles -f node_modules/material-design-icons-web/web/*.* static/styles/material-icons"`
+1. Then just run it (`npm run copy:icons`), or add it to your build script.
+
+#### Copying with Webpack 
 Use Webpack to copy the files over: 
 
 * Install webpack and the copy plugin: `npm install webpack webpack-cli copy-webpack-plugin`
