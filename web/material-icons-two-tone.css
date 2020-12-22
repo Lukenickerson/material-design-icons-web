@@ -4,7 +4,7 @@
 	font-weight: 400;
 	src: local('Material Icons Two Tone'),
 		local('MaterialIconsTwoTone-Regular'),
-		url(./fonts/MaterialIconsTwoTone-Regular.woff2) format('woff2'),
+		url(fonts/MaterialIconsTwoTone-Regular.woff2) format('woff2'),
 		url(https://fonts.gstatic.com/s/materialiconstwotone/v36/hESh6WRmNCxEqUmNyh3JDeGxjVVyMg4tHGctNCu0.woff2) format('woff2');
 }
 

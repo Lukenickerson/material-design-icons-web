@@ -4,7 +4,7 @@
 	font-weight: 400;
 	src: local('Material Icons Outlined'),
 		local('MaterialIconsOutlined-Regular'),
-		url(./fonts/MaterialIconsOutlined-Regular.woff2) format('woff2'),
+		url(fonts/MaterialIconsOutlined-Regular.woff2) format('woff2'),
 		url(https://fonts.gstatic.com/s/materialiconsoutlined/v38/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUce.woff2) format('woff2');
 }
 
