@@ -4,7 +4,7 @@
 	font-weight: 400;
 	src: local('Material Icons Round'),
 		local('MaterialIconsRound-Regular'),
-		url(fonts/MaterialIconsRound-Regular.woff2) format('woff2'),
+		url(MaterialIconsRound-Regular.woff2) format('woff2'),
 		url(https://fonts.gstatic.com/s/materialiconsround/v37/LDItaoyNOAY6Uewc665JcIzCKsKc_M9flwmP.woff2) format('woff2');
 }
 

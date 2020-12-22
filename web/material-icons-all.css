@@ -4,7 +4,7 @@
 	font-weight: 400;
 	src: local('Material Icons'),
 		local('MaterialIcons-Regular'),
-		url(fonts/MaterialIcons-Regular.woff2) format('woff2'),
+		url(MaterialIcons-Regular.woff2) format('woff2'),
 		url(https://fonts.gstatic.com/s/materialicons/v70/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
 }
 
@@ -14,7 +14,7 @@
 	font-weight: 400;
 	src: local('Material Icons Outlined'),
 		local('MaterialIconsOutlined-Regular'),
-		url(fonts/MaterialIconsOutlined-Regular.woff2) format('woff2'),
+		url(MaterialIconsOutlined-Regular.woff2) format('woff2'),
 		url(https://fonts.gstatic.com/s/materialiconsoutlined/v38/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUce.woff2) format('woff2');
 }
 
@@ -24,7 +24,7 @@
 	font-weight: 400;
 	src: local('Material Icons Round'),
 		local('MaterialIconsRound-Regular'),
-		url(fonts/MaterialIconsRound-Regular.woff2) format('woff2'),
+		url(MaterialIconsRound-Regular.woff2) format('woff2'),
 		url(https://fonts.gstatic.com/s/materialiconsround/v37/LDItaoyNOAY6Uewc665JcIzCKsKc_M9flwmP.woff2) format('woff2');
 }
 
@@ -34,7 +34,7 @@
 	font-weight: 400;
 	src: local('Material Icons Two Tone'),
 		local('MaterialIconsTwoTone-Regular'),
-		url(fonts/MaterialIconsTwoTone-Regular.woff2) format('woff2'),
+		url(MaterialIconsTwoTone-Regular.woff2) format('woff2'),
 		url(https://fonts.gstatic.com/s/materialiconstwotone/v36/hESh6WRmNCxEqUmNyh3JDeGxjVVyMg4tHGctNCu0.woff2) format('woff2');
 }
 
@@ -44,7 +44,7 @@
 	font-weight: 400;
 	src: local('Material Icons Sharp'),
 		local('MaterialIconsSharp-Regular'),
-		url(fonts/MaterialIconsSharp-Regular.woff2) format('woff2'),
+		url(MaterialIconsSharp-Regular.woff2) format('woff2'),
 		url(https://fonts.gstatic.com/s/materialiconssharp/v38/oPWQ_lt5nv4pWNJpghLP75WiFR4kLh3kvmvR.woff2) format('woff2');
 }
 
